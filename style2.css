@@ -1,0 +1,52 @@
+body{
+    background-color: #A5F0C5;
+}
+.key{
+    position: relative;
+    width: 97%;
+    color: #00917C;
+}
+.enkrip{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    border-radius: 0.5em;
+    background-color: #00917C;
+    color: #faf9ed;
+}
+.atas, .bawah{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+textarea{
+    color: #035956;
+}
+.button{
+    border: none;
+    font-size: medium;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0.5em;
+    margin-top: 10px;
+}
+.btn2{
+    background-color: #b90e0a;
+    color: white;
+}
+.btn2:hover{
+    background-color: #8a0806;
+    cursor: pointer;
+}
+.btn1{
+    background-color: #028a0f;
+    color: white;
+}
+.btn1:hover{
+    background-color: #006d0b;
+    cursor: pointer;
+}
